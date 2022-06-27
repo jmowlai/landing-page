@@ -5,6 +5,31 @@
     padding: 16px;
 }
 
+.header, .footer, .first-container, .second-container, .third-container, .fourth-container {
+    padding: 16px 64px 16px 64px;
+}
+
+.second-container {
+    padding: 16px 100px 16px 100px;
+}
+
+.third-container {
+    padding: 16px 128px 16px 128px;
+}
+
+.info-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+    color: grey;
+}
+
 .button, .button2 {
     background-color: #3882f6;
     color: white;
@@ -27,7 +52,7 @@
     font-weight: bold;
 }
 
-.header-link, .website-subtext {
+.header-link, .website-subtext, a {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -52,6 +77,7 @@ ul {
 .website-statement {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0px;
 }
 
 .second-container-heading{
@@ -59,6 +85,7 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding: 16px;
 }
 
 .inner-second-container {
@@ -69,9 +96,16 @@ ul {
 
 .third-container {
     background-color: #e5e7eb;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.quote-attribute {
+    font-size: 30px;
 }
 
 .coloured-box {
